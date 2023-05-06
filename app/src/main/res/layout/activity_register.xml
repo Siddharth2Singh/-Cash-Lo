@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="83dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="171dp"
+        android:foregroundGravity="center"
+
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginTop="190dp"
+       android:layout_marginStart="140dp"
+        android:fontFamily="@font/poppins"
+
+        android:text=" Cash Lo"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+
+    />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="130dp"
+
+
+        app:srcCompat="@drawable/screen4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="369dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="440dp"
+       android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Earn Anytime,Anywhere "
+        android:textColor="@color/white"
+        android:textSize="28sp"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="525dp"
+            android:src="@drawable/google" />
+
+
+
+        <Button
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_bg"
+        android:textStyle="bold"
+        android:textSize="24sp"
+
+
+        android:textAlignment="center"
+         android:textColor="@color/white"
+        android:text="Log In With Google" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844623766897",
+    "project_id": "cashlo-e8e5e",
+    "storage_bucket": "cashlo-e8e5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844623766897:android:7adc7b79a452e2c06942d0",
+        "android_client_info": {
+          "package_name": "com.sidd.cashlo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844623766897-ed7bevfvkvfor5q7rs7aml6hpsgmlh35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKPaL4U09iCooOsOgOXUh7sIPVMfrt8Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844623766897-ed7bevfvkvfor5q7rs7aml6hpsgmlh35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
